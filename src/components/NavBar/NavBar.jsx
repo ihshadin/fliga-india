@@ -6,10 +6,13 @@ const NavBar = () => {
     const navItems = <>
         <li><Link to='/' className='py-2 px-5 lg:hover:text-white lg:focus:text-white text-xl'>Home</Link></li>
         <li><Link to='/#services' className='py-2 px-5 lg:hover:text-white lg:focus:text-white text-xl'>Service</Link></li>
+        <li><Link to='/#portfolio' className='py-2 px-5 lg:hover:text-white lg:focus:text-white text-xl'>Portfolio</Link></li>
+        <li><Link to='/#community' className='py-2 px-5 lg:hover:text-white lg:focus:text-white text-xl'>Community</Link></li>
+        <li><Link to='/#blog' className='py-2 px-5 lg:hover:text-white lg:focus:text-white text-xl'>Blog</Link></li>
     </>
     return (
         <header className='bg_fliga'>
-            <div className="navbar text-white py-4 lg:py-8 justify-between gap-10 xl:container mx-auto font-inter">
+            <div className="navbar text-white py-4 lg:py-8 justify-between gap-10 font-inter">
                 <div className="navbar-start w-auto">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn bg-transparent border-0 text-white lg:hidden">

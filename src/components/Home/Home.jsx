@@ -16,6 +16,7 @@ import DiscoverIdeas from '../DiscoverIdeas/DiscoverIdeas';
 import Blogs from '../Blogs/Blogs';
 import RealWedding from '../RealWedding/RealWedding';
 import BestOffers from '../BestOffers/BestOffers';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -145,6 +146,7 @@ const Home = () => {
             <div className='divider mx-auto w-11/12'></div>
             <BestOffers />
             <div className='divider mx-auto w-11/12'></div>
+            <Footer />
         </>
     );
 };
