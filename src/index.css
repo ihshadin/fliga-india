@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Josefin+Sans:wght@400;500;600;700&family=Jura:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Homenaje&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.text_fliga {
+  color: #131514;
+}
+.bg_fliga {
+  background-color: #131514;
+}
+.text_fliga_se {
+  color: #A1E3D8;
+}
+.bg_fliga_se {
+  background-color: #A1E3D8;
+}
+.navbar .active {
+  @apply bg-white text_fliga
+}
+.bg_btn {
+  background: linear-gradient(180deg, #017B96 0%, #1E4047 100%);
+}
+.font-inter {
+  font-family: 'Inter', sans-serif;
+}
+.font-jura {
+  font-family: 'Jura', sans-serif;
+}
+.font-josefin {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+.font-homenaje {
+  font-family: 'Homenaje', sans-serif;
+}
